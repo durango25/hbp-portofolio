@@ -1,3 +1,5 @@
+import BannerImg from "@/public/images/banner.png";
+
 export const siteConfig = {
   site_name: "Hanggara Bima Pramesti",
   short_name: "HBP Porto",
@@ -39,4 +41,5 @@ export const siteConfig = {
       "https://www.linkedin.com/in/hanggara-bima-pramesti-68b0971b7",
     github: "https://github.com/durango25",
   },
+  banner: BannerImg,
 }
