@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     url: siteUrl,
     images: [
       {
-        url: "/images/logo.png",
-        width: 500,
-        height: 500,
+        url: "/images/banner.png",
+        // width: 500,
+        // height: 500,
         type: "image/png",
         alt: siteConfig?.site_name
       },
