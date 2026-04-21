@@ -10,22 +10,31 @@ import { TooltipProvider } from "@/components/ui/tooltip"
 const siteUrl = process.env.NEXT_PUBLIC_URL || "http://localhost:3000";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: siteConfig.site_name,
+  title: {
+    template: `%s - ${siteConfig?.site_name}`,
+    default: siteConfig?.site_name,
+  },
   description: siteConfig.description,
   keywords: siteConfig.keywords,
+  authors: [{ name: 'Hanggara Bima Pramesti' }],
   icons: {
     icon: "/images/favicon.ico",
   },
   openGraph: {
-    title: siteConfig.site_name,
-    description: siteConfig.description,
-    images: ["/images/logo.png"],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: siteConfig.site_name,
-    description: siteConfig.description,
-    images: ["/images/logo.png"],
+    type: 'website',
+    siteName: siteConfig?.site_name,
+    title: siteConfig?.site_name,
+    description: siteConfig?.description,
+    url: siteUrl,
+    images: [
+      {
+        url: "/images/logo.png",
+        width: 500,
+        height: 500,
+        type: "image/png",
+        alt: siteConfig?.site_name
+      },
+    ],
   },
 }
 

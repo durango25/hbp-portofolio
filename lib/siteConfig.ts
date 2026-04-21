@@ -2,7 +2,7 @@ export const siteConfig = {
   site_name: "Hanggara Bima Pramesti",
   short_name: "HBP Porto",
   description:
-    "Portofolio Profesional Hanggara Bima Pramesti - Web Developer & Programmer",
+    "Portofolio Hanggara Bima Pramesti - Web Developer & Programmer",
   organization: "Bim's Code Zone",
   keywords: [
     "hanggara bima pramesti",
