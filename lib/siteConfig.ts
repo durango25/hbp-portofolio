@@ -1,4 +1,4 @@
-import BannerImg from "@/public/images/banner.png";
+import BannerImg from "@/public/images/banner-fix.jpeg";
 
 export const siteConfig = {
   site_name: "Hanggara Bima Pramesti",
