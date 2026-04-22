@@ -37,6 +37,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GSV || "",
+  }
 }
 
 export default function RootLayout({
