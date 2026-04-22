@@ -36,7 +36,27 @@ export function HeroSection() {
         <div className="absolute -bottom-40 -left-40 h-96 w-96 rounded-full bg-pink-500/10 blur-3xl" />
       </div>
 
-      <div className="mx-auto max-w-6xl grid grid-cols-1 items-center gap-12 px-6 md:grid-cols-2">
+      {/* GRID */}
+      <div
+        className="absolute inset-0"
+        style={{
+          backgroundImage: `
+        linear-gradient(to right, rgba(139,92,246,0.25) 1px, transparent 200px),
+        linear-gradient(to bottom, rgba(236,72,153,0.25) 1px, transparent 200px)
+      `,
+          backgroundSize: "80px 80px",
+          maskImage:
+            "radial-gradient(ellipse at center, black 20%, transparent 70%)",
+          WebkitMaskImage:
+            "radial-gradient(ellipse at center, black 20%, transparent 70%)",
+        }}
+      />
+
+      {/* Blur semua sisi (atas, bawah, kiri, kanan) */}
+      <div className="absolute inset-0 bg-linear-to-r from-background via-transparent to-background" />
+      <div className="absolute inset-0 bg-linear-to-b from-background via-transparent to-background" />
+
+      <div className="z-20 mx-auto max-w-6xl grid grid-cols-1 items-center gap-12 px-6 md:grid-cols-2">
         {/* Text content */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
