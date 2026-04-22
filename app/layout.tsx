@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils"
 import { siteConfig } from "@/lib/siteConfig"
 import { fontSans, fontMono } from "@/lib/fonts"
 import { TooltipProvider } from "@/components/ui/tooltip"
+import { GoogleAnalytics } from "@next/third-parties/google"
 
 const siteUrl = process.env.NEXT_PUBLIC_URL || "http://localhost:3000";
 export const metadata: Metadata = {
@@ -55,6 +56,7 @@ export default function RootLayout({
       )}
     >
       <body>
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID!} />
         <ThemeProvider>
           <TooltipProvider>
             {children}
