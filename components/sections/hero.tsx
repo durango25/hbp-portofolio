@@ -29,12 +29,6 @@ export function HeroSection() {
       id="home"
       className="relative flex min-h-screen items-center overflow-hidden py-12 sm:py-24 pt-24"
     >
-      {/* Background gradient decorations */}
-      <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        {/* <div className="absolute -top-48 left-1/2 -translate-x-1/2 h-80 w-80 rounded-full bg-violet-500/20 blur-3xl" /> */}
-        <div className="absolute -top-40 -right-40 h-96 w-96 rounded-full bg-violet-500/10 blur-3xl" />
-        <div className="absolute -bottom-40 -left-40 h-96 w-96 rounded-full bg-pink-500/10 blur-3xl" />
-      </div>
 
       {/* GRID */}
       <div
@@ -55,6 +49,13 @@ export function HeroSection() {
       {/* Blur semua sisi (atas, bawah, kiri, kanan) */}
       <div className="absolute inset-0 bg-linear-to-r from-background via-transparent to-background" />
       <div className="absolute inset-0 bg-linear-to-b from-background via-transparent to-background" />
+
+      {/* Background gradient decorations */}
+      <div className="pointer-events-none absolute inset-0 overflow-hidden">
+        {/* <div className="absolute -top-48 left-1/2 -translate-x-1/2 h-80 w-80 rounded-full bg-violet-500/20 blur-3xl" /> */}
+        <div className="absolute -top-40 -right-40 h-96 w-96 rounded-full bg-violet-500/10 blur-3xl" />
+        <div className="absolute -bottom-40 -left-40 h-96 w-96 rounded-full bg-pink-500/10 blur-3xl" />
+      </div>
 
       <div className="z-20 mx-auto max-w-6xl grid grid-cols-1 items-center gap-12 px-6 md:grid-cols-2">
         {/* Text content */}
