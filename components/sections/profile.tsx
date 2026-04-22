@@ -102,7 +102,7 @@ export function ProfileSection() {
                   />
                 </div>
               </div>
-              <span className="mt-2 text-sm text-center block text-pink-500 dark:text-pink-400"> August 25, 1998 ~ Virgo </span>
+              <span className="mt-2 text-sm text-center block text-pink-500 dark:text-pink-400"> August 25, 1998 ~ Virgo <br /> ~ Pria Tanpa Orang Dalam :) ~ </span>
             </div>
           </motion.div>
         </div>
