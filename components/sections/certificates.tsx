@@ -21,7 +21,7 @@ const certificates = [
     issuer: "Lembaga Sertifikasi Profesi Informatika",
     date: "Sep 2019",
     expiry: "Sep 2022",
-    image: "/images/certificates/1.jpg",
+    image: "/images/certificates/bnsp.jpg",
     link: null,
   },
   {
@@ -30,7 +30,7 @@ const certificates = [
     issuer: "Inixindo Jogja",
     date: "Mar 2023",
     expiry: null,
-    image: "/images/certificates/2.jpg",
+    image: "/images/certificates/secure-web-programming.jpg",
     link: "https://www.inixindo.id/my-account/verifikasi-sertifikat/38042",
   },
   {
@@ -39,7 +39,7 @@ const certificates = [
     issuer: "Inixindo Jogja",
     date: "Mar 2023",
     expiry: "Mar 2026",
-    image: "/images/certificates/3.jpg",
+    image: "/images/certificates/cyber-security-specialist.jpg",
     link: "https://eduparx.id/others/verifyCertificate?number=Ic2022000377",
   },
   {
@@ -48,7 +48,7 @@ const certificates = [
     issuer: "BBPSDMP Medan Komdigi",
     date: "Feb 2025",
     expiry: null,
-    image: "/images/certificates/4.png",
+    image: "/images/certificates/gta-smlti.png",
     link: "https://digitalent.komdigi.go.id/cek-sertifikat?registrasi=19998491040-5",
   },
   {
@@ -57,7 +57,7 @@ const certificates = [
     issuer: "Pusat Pengembangan Aparatur Komdigi",
     date: "Feb 2025",
     expiry: null,
-    image: "/images/certificates/5.png",
+    image: "/images/certificates/gta-pengantar-spbe.png",
     link: "https://digitalent.komdigi.go.id/cek-sertifikat?registrasi=22998231320-684",
   },
   {
@@ -66,8 +66,44 @@ const certificates = [
     issuer: "Skill Academy by Ruangguru",
     date: "Mar 2021",
     expiry: null,
-    image: "/images/certificates/6.jpg",
+    image: "/images/certificates/dasar-mobile-kotlin.jpg",
     link: "https://skillacademy.com/sertifikat/25ES2GJB23MR4I",
+  },
+  {
+    type: "Training",
+    name: "Belajar Membuat Aplikasi Web dengan React",
+    issuer: "Dicoding Indonesia",
+    date: "Apr 2026",
+    expiry: "Apr 2029",
+    image: "/images/certificates/web-react.png",
+    link: "https://www.dicoding.com/certificates/MEPJOQ32WZ3V",
+  },
+  {
+    type: "Training",
+    name: "Belajar Membuat Front-End Web untuk Pemula",
+    issuer: "Dicoding Indonesia",
+    date: "Apr 2026",
+    expiry: "Apr 2029",
+    image: "/images/certificates/fe-web.png",
+    link: "https://www.dicoding.com/certificates/0LZ0YRMQNX65",
+  },
+  {
+    type: "Training",
+    name: "Belajar Dasar Pemrograman JavaScript",
+    issuer: "Dicoding Indonesia",
+    date: "Apr 2026",
+    expiry: "Apr 2029",
+    image: "/images/certificates/pemrograman-javascript.png",
+    link: "https://www.dicoding.com/certificates/0LZ0YRN83X65",
+  },
+  {
+    type: "Training",
+    name: "Belajar Dasar Pemrograman Web",
+    issuer: "Dicoding Indonesia",
+    date: "Apr 2026",
+    expiry: "Apr 2029",
+    image: "/images/certificates/pemrograman-web.png",
+    link: "https://www.dicoding.com/certificates/2VX30K433XYQ",
   },
   {
     type: "Training",
@@ -75,8 +111,8 @@ const certificates = [
     issuer: "Dicoding Indonesia",
     date: "Apr 2026",
     expiry: "Apr 2029",
-    image: "/images/certificates/7.png",
-    link: "http://dicoding.com/certificates/RVZK0R53QZD5",
+    image: "/images/certificates/pemrograman-solid.png",
+    link: "https://dicoding.com/certificates/RVZK0R53QZD5",
   },
   {
     type: "Workshop",
@@ -84,7 +120,7 @@ const certificates = [
     issuer: "Inixindo Jogja",
     date: "Mar 2023",
     expiry: null,
-    image: "/images/certificates/8.jpg",
+    image: "/images/certificates/audit-cis.jpg",
     link: "https://eduparx.id/others/verifyCertificate?number=d581ce8f-795e-483b-b901-74e496cc7eea",
   },
   {
@@ -93,16 +129,16 @@ const certificates = [
     issuer: "Inixindo Jogja",
     date: "May 2023",
     expiry: null,
-    image: "/images/certificates/9.jpg",
+    image: "/images/certificates/mengamankan-aplikasi.jpg",
     link: "https://eduparx.id/others/verifyCertificate?number=ff44a81f-6064-4cbf-a9be-9444c2f76bc1",
   },
   {
     type: "Workshop",
-    name: "Bimbingan Teknis Kesiapan Implementasi Pelindungan Data Pribadi Bagi Badan Publik",
+    name: "Bimbingan Teknis Kesiapan Implementasi Perlindungan Data Pribadi Bagi Badan Publik",
     issuer: "Kementerian Komunikasi dan Informatika Republik Indonesia",
     date: "Sept 2022",
     expiry: null,
-    image: "/images/certificates/10.png",
+    image: "/images/certificates/bimtek-pdp.png",
     link: null,
   },
   {
@@ -111,7 +147,7 @@ const certificates = [
     issuer: "Diskominfo Provinsi Riau",
     date: "Sept 2022",
     expiry: null,
-    image: "/images/certificates/11.png",
+    image: "/images/certificates/workshop-csirt.png",
     link: null,
   },
   {
@@ -120,7 +156,7 @@ const certificates = [
     issuer: "Diskominfo Kota Pekanbaru",
     date: "Aug 2022",
     expiry: null,
-    image: "/images/certificates/12.jpg",
+    image: "/images/certificates/bimtek-server-dan-web.jpg",
     link: null,
   },
   {
@@ -129,7 +165,7 @@ const certificates = [
     issuer: "CV. REGISTRA MITRA SUKSES",
     date: "Mei 2016",
     expiry: null,
-    image: "/images/certificates/13.jpg",
+    image: "/images/certificates/smk-ukk.jpg",
     link: null,
   },
 ]
@@ -230,30 +266,29 @@ export function CertificatesSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: Math.max(0, i - prevCount) * 0.1 }}
-                className=""
               >
                 <Card
-                  className="h-full gap-5 cursor-pointer overflow-hidden transition-transform duration-300 hover:scale-[1.02]"
-                  onClick={() => {
-                    const globalIdx = certificates.findIndex((c) => c.image === cert.image && c.name === cert.name)
-                    openLightbox(globalIdx)
-                  }}
+                  className="h-full gap-5 overflow-hidden transition-transform duration-300 hover:scale-[1.02]"
                 >
                   {/* Certificate image — clickable */}
                   <button
                     type="button"
-                    className="relative aspect-video w-full overflow-hidden block cursor-zoom-in focus:outline-none"
+                    className="group relative aspect-video w-full overflow-hidden block cursor-zoom-in focus:outline-none"
                     aria-label={`Preview ${cert.name}`}
+                    onClick={() => {
+                      const globalIdx = certificates.findIndex((c) => c.image === cert.image && c.name === cert.name)
+                      openLightbox(globalIdx)
+                    }}
                   >
                     <Image
                       src={`/images/certificates/${cert.image.split("/").pop()}`}
                       alt={cert.name}
                       fill
-                      className="object-cover transition-transform duration-300 hover:scale-105"
+                      className="object-cover transition-transform duration-300 group-hover:scale-105"
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
-                    <div className="absolute inset-0 flex items-center justify-center bg-black/0 transition-colors duration-300 hover:bg-black/20">
-                      <span className="rounded-full bg-white/90 px-3 py-1 text-xs font-medium text-gray-800 opacity-0 transition-opacity duration-300 hover:opacity-100 group-hover:opacity-100">
+                    <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/0 transition-colors duration-300 group-hover:bg-black/20">
+                      <span className="rounded-full bg-white/90 px-3 py-1 text-xs font-medium text-gray-800 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                         Click to preview
                       </span>
                     </div>
@@ -281,6 +316,7 @@ export function CertificatesSection() {
                     </div>
                     {cert.link && cert.link !== "#" && (
                       <a
+                        aria-label="View Certificate"
                         href={cert.link}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -302,6 +338,7 @@ export function CertificatesSection() {
               className="mt-10 flex justify-center"
             >
               <Button
+                aria-label="Show More Certificates"
                 variant="outline"
                 size="lg"
                 onClick={handleShowMore}

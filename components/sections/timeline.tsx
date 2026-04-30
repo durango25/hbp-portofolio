@@ -46,7 +46,7 @@ export function TimelineEducation({ items, icon, className }: TimelineEducationP
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: i * 0.15 }}
+          transition={{ duration: 0.5, delay: i * 0.1 }}
           className="relative pl-10"
         >
           {/* Dot */}
@@ -121,7 +121,7 @@ export function TimelineExperience({ items, icon, className }: TimelineExperienc
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: i * 0.15 }}
+          transition={{ duration: 0.5, delay: i * 0.1 }}
           className="relative pl-10"
         >
           {/* Dot */}

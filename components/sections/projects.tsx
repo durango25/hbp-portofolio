@@ -284,9 +284,8 @@ export function ProjectsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="transition-transform hover:scale-[1.02]"
             >
-              <Card className="h-full">
+              <Card className="h-full transition-transform hover:scale-[1.02]">
                 <CardHeader className="gap-2">
                   <CardTitle>
                     <h4>{project.title}</h4>
@@ -310,6 +309,7 @@ export function ProjectsSection() {
                 </CardContent>
                 <CardFooter className="gap-2">
                   <Button
+                    aria-label="Github Repository"
                     variant="outline"
                     size="icon"
                     asChild
@@ -327,11 +327,13 @@ export function ProjectsSection() {
                       (link, i) => (
                         <Button
                           key={i}
+                          aria-label="External Link"
                           size="icon"
                           asChild
                           className="gradient-bg transition-colors duration-300 border-0 text-white hover:opacity-90"
                         >
                           <a
+                            aria-label="External Link"
                             href={link}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -346,6 +348,16 @@ export function ProjectsSection() {
             </motion.div>
           ))}
         </div>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="mt-8 text-center text-sm italic text-muted-foreground"
+        >
+          — and many more projects not listed here.
+        </motion.p>
       </div>
 
     </section>

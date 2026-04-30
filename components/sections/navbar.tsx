@@ -94,6 +94,7 @@ export function Navbar() {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Button
+                  aria-label="Switch Theme"
                   variant="ghost"
                   size="icon"
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -113,6 +114,7 @@ export function Navbar() {
         <div className="flex items-center gap-2 md:hidden">
           {mounted && (
             <Button
+              aria-label="Switch Theme"
               variant="ghost"
               size="icon"
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -121,6 +123,7 @@ export function Navbar() {
             </Button>
           )}
           <Button
+            aria-label="Toggle Mobile Menu"
             variant="ghost"
             size="icon"
             onClick={() => setMobileOpen(!mobileOpen)}

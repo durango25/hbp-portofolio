@@ -118,6 +118,7 @@ export function HeroSection() {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Button
+                  aria-label="Download CV"
                   variant="outline"
                   size="lg"
                   className="w-full sm:w-auto rounded-full px-5 py-5 text-md"
@@ -136,6 +137,7 @@ export function HeroSection() {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Button
+                  aria-label="Contact Me"
                   size="lg"
                   asChild
                   className="w-full sm:w-auto gradient-bg transition-colors duration-300 border-0 text-white hover:opacity-90 rounded-full px-5 py-5 text-md"
@@ -161,7 +163,8 @@ export function HeroSection() {
           className="order-2 md:order-2 flex justify-center"
         >
           <div className="relative">
-            <div className="gradient-bg absolute inset-0 rounded-full opacity-20 blur-2xl" />
+            {/* BLUR ON RIGHT PHOTO */}
+            {/* <div className="gradient-bg absolute inset-0 rounded-full opacity-20 blur-2xl" /> */}
             <div className="relative size-72 md:size-128 scale-x-[-1]">
               <Image
                 src="/images/hero-1.png"

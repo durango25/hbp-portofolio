@@ -95,7 +95,7 @@ export function ContactSection() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.15 }}
+                transition={{ duration: 0.5, delay: i * 0.2 }}
                 className="flex items-center gap-4"
               >
                 <div className="flex size-10 shrink-0 items-center justify-center rounded-lg gradient-bg text-white">
@@ -128,7 +128,7 @@ export function ContactSection() {
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.15 }}
+                  transition={{ duration: 0.5, delay: i * 0.2 }}
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"

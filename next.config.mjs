@@ -6,7 +6,7 @@ const nextConfig = {
   //     bodySizeLimit: '10mb',
   //   },
   // },
-  allowedDevOrigins: ['192.168.100.47'],
+  allowedDevOrigins: process.env.NODE_ENV === 'development' ? ['192.168.100.49'] : [],
   images: {
     dangerouslyAllowLocalIP: process.env.NODE_ENV === 'development',
     qualities: [75, 100],
