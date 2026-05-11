@@ -30,7 +30,7 @@ const certificates = [
     issuer: "Inixindo Jogja",
     date: "Mar 2023",
     expiry: null,
-    image: "/images/certificates/secure-web-programming.jpg",
+    image: "/images/certificates/inixindo-secure-web-programming.jpg",
     link: "https://www.inixindo.id/my-account/verifikasi-sertifikat/38042",
   },
   {
@@ -39,7 +39,7 @@ const certificates = [
     issuer: "Inixindo Jogja",
     date: "Mar 2023",
     expiry: "Mar 2026",
-    image: "/images/certificates/cyber-security-specialist.jpg",
+    image: "/images/certificates/inixindo-cyber-security-specialist.jpg",
     link: "https://eduparx.id/others/verifyCertificate?number=Ic2022000377",
   },
   {
@@ -66,8 +66,26 @@ const certificates = [
     issuer: "Skill Academy by Ruangguru",
     date: "Mar 2021",
     expiry: null,
-    image: "/images/certificates/dasar-mobile-kotlin.jpg",
+    image: "/images/certificates/skillacademy-dasar-mobile-kotlin.jpg",
     link: "https://skillacademy.com/sertifikat/25ES2GJB23MR4I",
+  },
+  {
+    type: "Training",
+    name: "Belajar Dasar Cloud dan Gen Al di AWS",
+    issuer: "Dicoding Indonesia",
+    date: "Mei 2026",
+    expiry: "Mei 2029",
+    image: "/images/certificates/dicoding-cloud-gen-ai-aws.png",
+    link: "https://www.dicoding.com/certificates/NVP7NJ66GZR0",
+  },
+  {
+    type: "Training",
+    name: "Spec-Driven Development dengan Kiro",
+    issuer: "Dicoding Indonesia",
+    date: "Mei 2026",
+    expiry: "Mei 2029",
+    image: "/images/certificates/dicoding-sdd-kiro.png",
+    link: "https://www.dicoding.com/certificates/0LZ0YRLW3X65",
   },
   {
     type: "Training",
@@ -75,7 +93,7 @@ const certificates = [
     issuer: "Dicoding Indonesia",
     date: "Apr 2026",
     expiry: "Apr 2029",
-    image: "/images/certificates/web-react.png",
+    image: "/images/certificates/dicoding-web-react.png",
     link: "https://www.dicoding.com/certificates/MEPJOQ32WZ3V",
   },
   {
@@ -84,7 +102,7 @@ const certificates = [
     issuer: "Dicoding Indonesia",
     date: "Apr 2026",
     expiry: "Apr 2029",
-    image: "/images/certificates/fe-web.png",
+    image: "/images/certificates/dicoding-fe-web.png",
     link: "https://www.dicoding.com/certificates/0LZ0YRMQNX65",
   },
   {
@@ -93,7 +111,7 @@ const certificates = [
     issuer: "Dicoding Indonesia",
     date: "Apr 2026",
     expiry: "Apr 2029",
-    image: "/images/certificates/pemrograman-javascript.png",
+    image: "/images/certificates/dicoding-pemrograman-javascript.png",
     link: "https://www.dicoding.com/certificates/0LZ0YRN83X65",
   },
   {
@@ -102,7 +120,7 @@ const certificates = [
     issuer: "Dicoding Indonesia",
     date: "Apr 2026",
     expiry: "Apr 2029",
-    image: "/images/certificates/pemrograman-web.png",
+    image: "/images/certificates/dicoding-pemrograman-web.png",
     link: "https://www.dicoding.com/certificates/2VX30K433XYQ",
   },
   {
@@ -111,7 +129,7 @@ const certificates = [
     issuer: "Dicoding Indonesia",
     date: "Apr 2026",
     expiry: "Apr 2029",
-    image: "/images/certificates/pemrograman-solid.png",
+    image: "/images/certificates/dicoding-pemrograman-solid.png",
     link: "https://dicoding.com/certificates/RVZK0R53QZD5",
   },
   {
@@ -120,7 +138,7 @@ const certificates = [
     issuer: "Inixindo Jogja",
     date: "Mar 2023",
     expiry: null,
-    image: "/images/certificates/audit-cis.jpg",
+    image: "/images/certificates/inixindo-audit-cis.jpg",
     link: "https://eduparx.id/others/verifyCertificate?number=d581ce8f-795e-483b-b901-74e496cc7eea",
   },
   {
@@ -129,7 +147,7 @@ const certificates = [
     issuer: "Inixindo Jogja",
     date: "May 2023",
     expiry: null,
-    image: "/images/certificates/mengamankan-aplikasi.jpg",
+    image: "/images/certificates/inixindo-mengamankan-aplikasi.jpg",
     link: "https://eduparx.id/others/verifyCertificate?number=ff44a81f-6064-4cbf-a9be-9444c2f76bc1",
   },
   {
